@@ -1,0 +1,13 @@
+{
+  "appId": "com.jordienric.calc",
+  "appName": "calculadora-interes-compuesto",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
