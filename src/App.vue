@@ -120,7 +120,17 @@ export default defineComponent({
     };
   },
   methods: {
+    reset() {
+      this.xAxis = [];
+      this.total = "";
+      this.totalContributions = 0;
+      this.totalInterest = 0;
+      this.years = [];
+      this.seriesInterest = [];
+      this.seriesContributions = [];
+    },
     calculate(data: FormData) {
+      this.reset();
       const { investment, contribution, interest, length } = data;
 
       let years = [];
@@ -155,7 +165,7 @@ export default defineComponent({
       this.total = total.toFixed(2);
       this.years = years;
       this.totalContributions = totalContributions;
-      this.totalInterest = totalInterest.toFixed(2);
+      this.totalInterest = +totalInterest.toFixed(2);
       this.itsEmpty = false;
     },
   },
