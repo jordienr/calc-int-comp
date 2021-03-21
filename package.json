@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
     "@capacitor/cli": "^2.4.7",
     "@capacitor/core": "^2.4.7",
+    "@capacitor/ios": "^2.4.7",
     "apexcharts": "^3.26.0",
     "vue": "^3.0.5",
     "vue3-apexcharts": "^1.2.1"

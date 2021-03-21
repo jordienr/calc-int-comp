@@ -216,6 +216,9 @@ body {
   font-weight: bold;
   background-color: red;
 }
+.result {
+  margin-top: 2rem;
+}
 .result-container {
   margin-bottom: 320px;
   overflow-x: auto;
@@ -227,6 +230,7 @@ body {
   left: 0;
   right: 0;
   background-color: #f1f5f9;
+  padding-bottom: 2.5rem;
 }
 
 .calc-title {
