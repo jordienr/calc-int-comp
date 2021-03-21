@@ -6,6 +6,7 @@
         type="number"
         name="investment"
         id="investment"
+        inputmode="decimal"
         v-model="investment"
       />
     </div>
@@ -15,17 +16,30 @@
         type="number"
         name="contribution"
         id="contribution"
+        inputmode="decimal"
         v-model="contribution"
       />
     </div>
     <div class="d-flex">
       <div class="input-group">
         <label for="interest">Interés estimado</label>
-        <input type="number" name="interest" id="interest" v-model="interest" />
+        <input
+          type="number"
+          name="interest"
+          id="interest"
+          v-model="interest"
+          inputmode="decimal"
+        />
       </div>
       <div class="input-group">
         <label for="length">Duración en años</label>
-        <input type="number" name="length" id="length" v-model="length" />
+        <input
+          type="number"
+          name="length"
+          id="length"
+          v-model="length"
+          inputmode="decimal"
+        />
       </div>
     </div>
     <!-- <div class="input-group">

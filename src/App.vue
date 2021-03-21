@@ -236,4 +236,9 @@ body {
 .calc-title {
   justify-content: space-between;
 }
+
+.select-result-type {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
 </style>
